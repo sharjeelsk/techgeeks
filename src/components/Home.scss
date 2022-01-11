@@ -1,0 +1,24 @@
+@import "../App.scss";
+
+html,body{
+    color: #e2e2e2;
+    background: #012728;
+background: -webkit-radial-gradient(center, #012728, #10011C);
+background: -moz-radial-gradient(center, #012728, #10011C);
+background: radial-gradient(ellipse at center, #012728, #10011C);
+}
+
+.home{
+   .name{
+    width: 30vw;
+   }
+   .dev{
+    width: 50vw;
+   }
+}
+.fab-cont{
+    position:fixed;
+    right:5%;
+    bottom:5%;
+    z-index: 2;
+}

@@ -1,0 +1,83 @@
+@import  "../../App.scss";
+
+.section2{
+    h1{
+        text-align: center;
+        font-size: 3em;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: $primaryColor;
+    }
+    .card-head-left{
+        width: 60%;
+        padding:2%;
+        margin: 2% 2% 2% 2%;
+        // background: #02012E;
+        // background: -webkit-linear-gradient(top left, #02012E, #016B69);
+        // background: -moz-linear-gradient(top left, #02012E, #016B69);
+        // background: linear-gradient(to bottom right, #02012E, #016B69);
+        border-radius: 5px ;
+        .profile{
+            width: 12vw;
+            border-radius: 100%;
+        }
+        .card-heading{
+            color: $primaryColor;
+            font-size: 2em;
+            font-weight: 400;
+        }
+        .card-role{
+            color: $secondaryColor;
+            font-weight: lighter;
+            font-size: 1.3em;
+
+        }
+    }
+
+    .card-head-right{
+        width: 60%;
+        padding:2%;
+        margin: 2% 2% 2% auto;
+        // background: #02012E;
+        // background: -webkit-linear-gradient(top left, #02012E, #016B69);
+        // background: -moz-linear-gradient(top left, #02012E, #016B69);
+        // background: linear-gradient(to bottom right, #02012E, #016B69);
+        border-radius: 5px ;
+        .profile{
+            width: 12vw;
+            border-radius: 100%;
+        }
+        .card-heading{
+            color: $primaryColor;
+            font-size: 2em;
+            font-weight: 400;
+        }
+        .card-role{
+            color: $secondaryColor;
+            font-weight: lighter;
+            font-size: 1.3em;
+        }
+    }
+}
+
+.process-section{
+    .row{
+        margin: auto 10%;
+        .col-xl-3{
+            text-align: center;
+            .processimage{
+                width: 100%;
+                height: 35%;
+            }
+            .p-head{
+                color: $primaryColor;
+                font-weight: 300;
+                font-size: 2em;
+            }
+            .p-para{
+                line-height: 2;
+            }
+
+        }
+    }
+}
