@@ -12,7 +12,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import NavigationIcon from '@mui/icons-material/Navigation';
 import MessageRoundedIcon from '@mui/icons-material/MessageRounded';
-function Home() {
+function Home(props) {
     return (
         <div className="home">
         <div className="m-auto row justify-content-between">
@@ -26,7 +26,7 @@ function Home() {
         </div>
         </div>
     
-        <div className="fab-cont">
+        <div className="fab-cont" onClick={()=>props.history.push("/contactus")}>
         <Fab size='large' color="secondary" aria-label="edit">
         <MessageRoundedIcon />
         </Fab>

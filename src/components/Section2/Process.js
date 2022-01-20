@@ -7,7 +7,7 @@ import {ReactComponent as Deliver} from '../../Images/undraw_online_groceries_a0
 function Process() {
     return (
         <div className="process-section">
-            <h1>Process We Follow</h1>
+            <h1 className="heading">Process We Follow</h1>
 
             <div className="row justify-content-between">
                 <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">

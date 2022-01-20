@@ -10,7 +10,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#5a1e96",
+      main: "#02F6FF",
     },
     secondary: {
       main: "#02F6FF",
@@ -62,6 +62,18 @@ const theme = createTheme({
           '&:focus':{
             outline:'none'
           }
+        }
+      }
+    },MuiTextField:{
+      styleOverrides:{
+        root:{
+          '& fieldset': {
+            borderColor: 'red',
+            
+          },
+          '&::placeholder': {
+            color:"red"
+          },
         }
       }
     }

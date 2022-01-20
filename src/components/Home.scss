@@ -22,3 +22,24 @@ background: radial-gradient(ellipse at center, #012728, #10011C);
     bottom:5%;
     z-index: 2;
 }
+
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .home{
+        .name{
+         width: 100vw;
+         height: 50vh;
+        }
+        .dev{
+         width: 100vw;
+         height: 50vh;
+        }
+     }
+}
