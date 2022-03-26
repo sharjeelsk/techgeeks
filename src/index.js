@@ -80,9 +80,10 @@ const theme = createTheme({
   }
 });
 
+const rootElement = document.getElementById("root");
 
-ReactDOM.render(
-  <Provider store={store}>
+if (rootElement.hasChildNodes()) {
+  ReactDOM.hydrate( <Provider store={store}>
   <PersistGate loading={null} persistor={Persister}>
     <BrowserRouter>
     <ThemeProvider theme={theme}>
@@ -90,10 +91,18 @@ ReactDOM.render(
     </ThemeProvider>
     </BrowserRouter>
     </PersistGate>
-    </Provider>
-,
-  document.getElementById('root')
-);
+    </Provider>, rootElement);
+} else {
+  ReactDOM.render( <Provider store={store}>
+  <PersistGate loading={null} persistor={Persister}>
+    <BrowserRouter>
+    <ThemeProvider theme={theme}>
+    <App />
+    </ThemeProvider>
+    </BrowserRouter>
+    </PersistGate>
+    </Provider>, rootElement);
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
