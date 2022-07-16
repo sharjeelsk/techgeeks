@@ -1,0 +1,37 @@
+@import  "../../App.scss";
+
+.Services{
+    .head{
+        margin-top: 8%;
+    }
+    h1{
+        font-size: 2em;
+        color: $primaryColor;
+    text-align: center;
+    }
+
+    h3{
+        font-weight: lighter;
+        font-size: 4em;
+        color: $primaryColor;
+        text-align: center;
+    }
+
+    .service-section{
+        background-color: #00f7ff13;
+        padding: 2%;
+        margin-top: 2% !important;
+        width: 60%;
+        h4{
+            font-size: 1.3em;
+            color: white;
+        }
+        p{
+            line-height: 1.5;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    
+}

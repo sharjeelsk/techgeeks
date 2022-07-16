@@ -37,7 +37,7 @@ function Section2() {
                 </div>
                 <div className="col-9">
                     <h2 className="card-heading">Fida Ur Rehman Khan</h2>
-                    <p className="card-role">MERN stack developer</p>
+                    <p className="card-role">NodeJS developer</p>
                     <p className="card-info">
                     Hi guys, This is Fida Ur Rehman, I am a NodeJS developer with good hands-on Node, Express and MongoDB. I usually talk with client side via robust and highly secured API. I'm well versed in aggregation pipeline of mongoDB where you just need to request for a desired data format and you'll get it!
                     </p>
@@ -57,34 +57,7 @@ function Section2() {
                 </div>
             </div>
 
-            <div className="card-head-right row align-items-center">
-                <div className="col-3">
-                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
-                </div>
-                <div className="col-9">
-                    <h2 className="card-heading">Abdur Razzak</h2>
-                    <p className="card-role">Backend and wordpress developer</p>
-                    <p className="card-info">
-                    Hello folks i am abdur razzak a developer proficient in React, Redux, HTML, CSS, Django, Python and Wordpress
-                    </p>
-                </div>
-            </div>
-
-            <div className="card-head-left row align-items-center">
-                <div className="col-3">
-                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
-                </div>
-                <div className="col-9">
-                    <h2 className="card-heading">Abdur Raheem</h2>
-                    <p className="card-role">Front-end developer</p>
-                    <p className="card-info">
-                    Hello folks i am abdur raheem proficient in html CSS react and Shopify to handle front-end operations
-                    </p>
-                </div>
-            </div>
-
-
-
+            
 
 
             <div className="card-head-right row align-items-center">
@@ -99,6 +72,35 @@ function Section2() {
                     </p>
                 </div>
             </div>
+
+            <div className="card-head-left row align-items-center">
+                <div className="col-3">
+                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
+                    <h2 className="card-heading">Abdur Razzak</h2>
+                    <p className="card-role">Full stack and Wordpress developer</p>
+                    <p className="card-info">
+                    Hello folks i am abdur razzak a developer proficient in React, Redux, HTML, CSS, Django, Python and Wordpress
+                    </p>
+                </div>
+            </div>
+
+            <div className="card-head-right row align-items-center">
+                <div className="col-3">
+                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
+                    <h2 className="card-heading">Abdur Raheem</h2>
+                    <p className="card-role">Front-End developer</p>
+                    <p className="card-info">
+                    Hello folks i am abdur raheem proficient in html CSS react and Shopify to handle front-end operations
+                    </p>
+                </div>
+            </div>
+
+
+
 
             <div className="card-head-left row align-items-center">
                 <div className="col-3">

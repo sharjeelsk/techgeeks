@@ -1,0 +1,14 @@
+@import  "../../App.scss";
+
+.aboutus{
+    text-align: center;
+    h1{
+        font-size: 3em;
+        color: $primaryColor;
+    }
+    p{
+        margin: 2% 20%;
+        line-height: 2;
+        font-size: 1.1em;
+    }
+}

@@ -8,9 +8,11 @@ import Section4 from './Section4/Section4'
 import Footer from './Footer/Footer'
 import Fab from '@mui/material/Fab';
 import MessageRoundedIcon from '@mui/icons-material/MessageRounded';
+import Header from './Header/Header'
 function Home(props) {
     return (
         <div className="home">
+            <Header   />
         <div className="m-auto row justify-content-between">
         
         <div className=" col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

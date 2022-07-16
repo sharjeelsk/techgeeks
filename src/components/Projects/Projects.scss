@@ -1,0 +1,43 @@
+@import  "../../App.scss";
+
+.Projects{
+    h1{
+        font-size: 3em;
+        color: $primaryColor;
+    text-align: center;
+    }
+    .pr-card-head{
+        margin: 3% 5%;
+        .pr-card{
+            text-align: center;
+            background-color: #00f7ff13;
+            padding:3% 3%;
+            h2{
+                color: $primaryColor;
+                font-weight: 300;
+                margin-bottom: 8%;
+            }
+            p{
+                margin-bottom: 5%;
+                line-height: 1.8;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 576px) {
+    .pr-card-head{
+        margin: 10% 5%;
+        .pr-card{
+        margin: 8% 2%;
+        padding:10%;
+        }
+    }
+}
