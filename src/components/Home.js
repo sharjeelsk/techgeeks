@@ -7,10 +7,6 @@ import Section3 from './Section3/Section3'
 import Section4 from './Section4/Section4'
 import Footer from './Footer/Footer'
 import Fab from '@mui/material/Fab';
-import AddIcon from '@mui/icons-material/Add';
-import EditIcon from '@mui/icons-material/Edit';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import NavigationIcon from '@mui/icons-material/Navigation';
 import MessageRoundedIcon from '@mui/icons-material/MessageRounded';
 function Home(props) {
     return (

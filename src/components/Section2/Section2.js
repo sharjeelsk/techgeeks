@@ -3,6 +3,7 @@ import "./Section2.scss"
 import SharjeelProfile from '../../Images/profile_logo_.jpg'
 import FidaKhan from '../../Images/fidakhan.jfif'
 import Hassan from '../../Images/pp.jfif'
+import shaikhsohel from '../../Images/shaikhsohel.jpg'
 import Taabish from '../../Images/pp (1).jfif'
 import DefaultProfile from '../../Images/user (2).png'
 import Process from './Process'
@@ -12,13 +13,6 @@ function Section2() {
     return (
         <div className="section2">
         <Process />
-
-
-
-
-
-
-
 
             <h1>Meet Our Developers</h1>
 
@@ -31,7 +25,7 @@ function Section2() {
                     <h2 className="card-heading">Shaikh Sharjeel</h2>
                     <p className="card-role">MERN stack developer</p>
                     <p className="card-info">
-                    Hello folks . I am sharjeel . I am a  MERN stack developer  expert in MongoDB, Express, React and Node. I am  proficient in JavaScript and use HTML, CSS and JavaScript to handle front-end operations and JavaScript with Node. js to handle back-end operations.
+                    Hello folks . I'm sharjeel . I'm a MERN stack developer  expert in MongoDB, Express, React and Node. Proficient in JavaScript and use HTML, CSS and JavaScript to handle front-end operations and JavaScript with NodeJS to handle back-end operations. I develop Android and IOS apps in React Native too!
                     </p>
                 </div>
             </div>
@@ -45,7 +39,7 @@ function Section2() {
                     <h2 className="card-heading">Fida Ur Rehman Khan</h2>
                     <p className="card-role">MERN stack developer</p>
                     <p className="card-info">
-                        Irure consectetur magna nisi consectetur ipsum consectetur aliqua excepteur amet tempor aute sint. Excepteur in proident ullamco occaecat consectetur eu. Sunt exercitation tempor qui exercitation reprehenderit ipsum. Anim labore enim aute cupidatat cillum sunt ipsum culpa consequat veniam non officia. Consectetur esse ea tempor tempor. Consectetur sint aliquip eu fugiat id velit non commodo.
+                    Hi guys, This is Fida Ur Rehman, I am a NodeJS developer with good hands-on Node, Express and MongoDB. I usually talk with client side via robust and highly secured API. I'm well versed in aggregation pipeline of mongoDB where you just need to request for a desired data format and you'll get it!
                     </p>
                 </div>
             </div>
@@ -63,8 +57,20 @@ function Section2() {
                 </div>
             </div>
 
-
             <div className="card-head-right row align-items-center">
+                <div className="col-3">
+                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
+                    <h2 className="card-heading">Abdur Razzak</h2>
+                    <p className="card-role">Backend and wordpress developer</p>
+                    <p className="card-info">
+                    Hello folks i am abdur razzak a developer proficient in React, Redux, HTML, CSS, Django, Python and Wordpress
+                    </p>
+                </div>
+            </div>
+
+            <div className="card-head-left row align-items-center">
                 <div className="col-3">
                     <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
                 </div>
@@ -78,23 +84,12 @@ function Section2() {
             </div>
 
 
-            <div className="card-head-left row align-items-center">
-                <div className="col-3">
-                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
-                </div>
-                <div className="col-9">
-                    <h2 className="card-heading">Abdur Razzak</h2>
-                    <p className="card-role">Backend and wordpress developer</p>
-                    <p className="card-info">
-                    Hello folks i am abdur razzak a developer proficient in  django python wordpress woo commerce
-                    </p>
-                </div>
-            </div>
+
 
 
             <div className="card-head-right row align-items-center">
                 <div className="col-3">
-                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
+                    <img src={shaikhsohel} className="profile"  alt="sharjeelportfolio"/>
                 </div>
                 <div className="col-9">
                     <h2 className="card-heading">Shaikh Sohel</h2>

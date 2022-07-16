@@ -5,11 +5,11 @@ function Footer() {
         <footer className="footer">
             <section className="row align-items-center justify-content-between">
             <div>
-            <h3>c TechGeeks 2020</h3>
+            <h3>Techgeeksfirm.com</h3>
             </div>
 
             <div>
-                <p>techgeeksfs@gmail.com</p>
+                <p>admin@techgeeksfirm.com</p>
             </div>
 
 
