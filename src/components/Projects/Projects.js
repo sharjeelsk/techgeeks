@@ -37,7 +37,7 @@ function Projects() {
                para="Create, Subscribe, and Vendor any event
                Events is a platform where you can create an event, subscribe a event and vendor a event. All three roles in just one platform, everything on just a single click without any lag. come join our community and explore the world of events"
                />
-               <a target="_blank" rel='noreferrer'  className="link" href="https://events-fawn.vercel.app/">Visit Now</a>
+               <a target="_blank" rel='noreferrer'  className="link" href="https://eventpickl.com/">Visit Now</a>
             </section>
 
             {/* <section className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 pr-card">
@@ -69,7 +69,7 @@ function Projects() {
                heading="Alpine Stationery"
                para="Alpine Stationery is an E-commerce platform consisting of stationery, educational and various types of books, that is accessible to the citizens of Aurangabad Maharashtra, where Alpine Stationery aims to provides one-day delivery"
                />
-               <a target="_blank" rel='noreferrer' className="link" href="https://alpinestationeries.herokuapp.com/">Visit Now</a>
+               {/* <a target="_blank" rel='noreferrer' className="link" href="https://alpinestationeries.herokuapp.com/">Visit Now</a> */}
             </section>
 
             <section className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 pr-card">
@@ -77,7 +77,7 @@ function Projects() {
                heading="Pre Alert"
                para="Pre Alert is an ERP system that is used by the famous courier company named Courier Plus in Nigeria. Pre Alert is a tracking mechanism with a mobile app and a operator dashboard where packages are tracked by the driver and the employees of courier plus and similarly the operator can manage this whole system which goes by road and air"
                />
-               <a target="_blank" rel='noreferrer' className="link" href="https://prealert.herokuapp.com/">Visit Now</a>
+               {/* <a target="_blank" rel='noreferrer' className="link" href="https://prealert.herokuapp.com/">Visit Now</a> */}
             </section>
 
 
@@ -91,7 +91,7 @@ function Projects() {
                The place where you can post your doubts, ask queries, and write blogs regarding Tech. No matter what your domain is, a community is there for you!. Why do we use it ?
                Cause you can write blogs on various tech topics and learn from others as well, to develop your self."
                />
-               <a target="_blank" rel='noreferrer' className="link" href="https://blogwep.herokuapp.com">Visit Now</a>
+               {/* <a target="_blank" rel='noreferrer' className="link" href="https://blogwep.herokuapp.com">Visit Now</a> */}
             </section>
 
             <section className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 pr-card">
