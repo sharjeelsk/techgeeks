@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Section2.scss"
-import SharjeelProfile from '../../Images/profile_logo_.jpg'
+import SharjeelProfile from '../../Images/sharjeel.jpg'
+import sohail from '../../Images/sohail.jpg'
 import FidaKhan from '../../Images/fidakhan.jfif'
 import Hassan from '../../Images/pp.jfif'
 import shaikhsohel from '../../Images/shaikhsohel.jpg'
@@ -57,10 +58,23 @@ function Section2() {
                 </div>
             </div>
 
+            <div className="card-head-right row align-items-center">
+                <div className="col-3">
+                    <img src={sohail} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
+                    <h2 className="card-heading">Sohel Ahmed</h2>
+                    <p className="card-role">HR Manager</p>
+                    <p className="card-info">
+                    Hello, my name is Sohel and I am the HR Manager. I am responsible for overseeing all aspects of human resources, from recruiting and hiring to employee relations and benefits administration. I am dedicated to creating a positive and productive work environment for our employees, and I am committed to helping them reach their full potential. I am excited to be part of this team and I look forward to contributing to our company's success
+                    </p>
+                </div>
+            </div>
+
             
 
 
-            <div className="card-head-right row align-items-center">
+            <div className="card-head-left row align-items-center">
                 <div className="col-3">
                     <img src={shaikhsohel} className="profile"  alt="sharjeelportfolio"/>
                 </div>
@@ -68,20 +82,7 @@ function Section2() {
                     <h2 className="card-heading">Shaikh Sohel</h2>
                     <p className="card-role">Backend developer and data scientist</p>
                     <p className="card-info">
-                    Hello folks i am Shaikh sohel a developer and data analyst proficient in pythoy data science and django
-                    </p>
-                </div>
-            </div>
-
-            <div className="card-head-left row align-items-center">
-                <div className="col-3">
-                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
-                </div>
-                <div className="col-9">
-                    <h2 className="card-heading">Abdur Razzak</h2>
-                    <p className="card-role">Full stack and Wordpress developer</p>
-                    <p className="card-info">
-                    Hello folks i am abdur razzak a developer proficient in React, Redux, HTML, CSS, Django, Python and Wordpress
+                    Hello, my name is Sohel and I am a cloud engineer and Django developer. I specialize in designing, building, and maintaining cloud-based solutions that meet the needs of businesses and organizations. My expertise in Django, a high-level Python web framework, allows me to create dynamic and scalable web applications with ease
                     </p>
                 </div>
             </div>
@@ -91,10 +92,23 @@ function Section2() {
                     <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
                 </div>
                 <div className="col-9">
+                    <h2 className="card-heading">Abdur Razzak</h2>
+                    <p className="card-role">Full stack and Wordpress developer</p>
+                    <p className="card-info">
+                    Hello, my name is Razzak and I am a full-stack developer. I have expertise in front-end and back-end development, as well as database design and management. I have a strong understanding of various web technologies and programming languages, such as HTML, CSS, JavaScript, and Python
+                    </p>
+                </div>
+            </div>
+
+            <div className="card-head-left row align-items-center">
+                <div className="col-3">
+                    <img src={DefaultProfile} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
                     <h2 className="card-heading">Abdur Raheem</h2>
                     <p className="card-role">Front-End developer</p>
                     <p className="card-info">
-                    Hello folks i am abdur raheem proficient in html CSS react and Shopify to handle front-end operations
+                    Hello, my name is Abdur Raheem and I am a full-stack developer. I have a deep understanding of both front-end and back-end development, as well as database design and management
                     </p>
                 </div>
             </div>
@@ -102,7 +116,7 @@ function Section2() {
 
 
 
-            <div className="card-head-left row align-items-center">
+            <div className="card-head-right row align-items-center">
                 <div className="col-3">
                     <img src={Taabish} className="profile"  alt="sharjeelportfolio"/>
                 </div>
@@ -110,7 +124,7 @@ function Section2() {
                     <h2 className="card-heading">Taabish Khan</h2>
                     <p className="card-role">UI / UX Designer</p>
                     <p className="card-info">
-                    Hello folks . Iam Tabish khan a professional logo designer ui/ux designer
+                    Hello, my name is Tabish Khan and I am a UI/UX designer. I have a passion for creating digital experiences that are both visually appealing and intuitive to use. I have a strong understanding of user-centered design principles and a keen eye for detail. I am skilled in using design tools such as Sketch, Adobe XD, and Figma to create wireframes, prototypes, and high-fidelity designs
                     </p>
                 </div>
             </div>
