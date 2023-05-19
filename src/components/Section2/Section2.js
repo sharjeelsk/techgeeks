@@ -9,7 +9,7 @@ import Taabish from '../../Images/pp (1).jfif'
 import DefaultProfile from '../../Images/user (2).png'
 import Process from './Process'
 
-
+//comment
 function Section2() {
     return (
         <div className="section2">
