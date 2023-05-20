@@ -14,14 +14,13 @@ function Projects() {
         <div className='Projects'>
         <h1>Our Projects</h1>
         <div className="row justify-content-between pr-card-head">
-
-//             <section className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 pr-card">
-//                  <Card 
-//                heading="Cleverpe"
-//                para="Cleverpe is the first E-Commerce Indian site which gives NO COST EMI on almost every electornic products, with fastest delivery even within few hours. Cleverpe aims to become the best buy now pay later option with zero interest transactions in India"
-//                />
-//                <a target="_blank" rel='noreferrer' className="link" href="https://cleverpe.com/">Visit Now</a>
-//             </section>
+        <section className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 pr-card">
+                 <Card 
+               heading="BanksterIndia"
+               para="BanksterIndia Platform Where Job Seekers Can Find All Banking Jobs Update this is often the simplest application for college students or job seekers. BanksterIndia contents the banking job opening details in India. It provides a chance to succeed in a pool of individuals who are actively seeking employment within the banking sector in India."
+               />
+               <a target="_blank" rel='noreferrer' className="link" href="https://banksterindia.com/">Visit Now</a>
+            </section>
 
             <section className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 pr-card">
                  <Card 
