@@ -3,6 +3,7 @@ import "./Section2.scss"
 import SharjeelProfile from '../../Images/sharjeel.jpg'
 import sohail from '../../Images/sohail.jpg'
 import FidaKhan from '../../Images/fidakhan.jfif'
+import Sudhanshu from '../../Images/sudhanshu.jpeg'
 import Hassan from '../../Images/pp.jfif'
 import shaikhsohel from '../../Images/shaikhsohel.jpg'
 import Taabish from '../../Images/pp (1).jfif'
@@ -18,7 +19,7 @@ function Section2() {
             <h1>Meet Our Developers</h1>
 
 
-            <div className="card-head-left row align-items-center">
+            {/* <div className="card-head-left row align-items-center">
                 <div className="col-3">
                     <img src={SharjeelProfile} className="profile"  alt="sharjeelportfolio"/>
                 </div>
@@ -27,6 +28,19 @@ function Section2() {
                     <p className="card-role">MERN stack developer</p>
                     <p className="card-info">
                     Hello folks . I'm sharjeel . I'm a MERN stack developer  expert in MongoDB, Express, React and Node. Proficient in JavaScript and use HTML, CSS and JavaScript to handle front-end operations and JavaScript with NodeJS to handle back-end operations. I develop Android and IOS apps in React Native too!
+                    </p>
+                </div>
+            </div> */}
+
+            <div className="card-head-left row align-items-center">
+                <div className="col-3">
+                    <img src={sohail} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
+                    <h2 className="card-heading">Sohel Ahmed</h2>
+                    <p className="card-role">CEO</p>
+                    <p className="card-info">
+                    A visionary leader and strategic innovator, instrumental in shaping the company's direction and driving transformative growth as a CEO.
                     </p>
                 </div>
             </div>
@@ -47,6 +61,19 @@ function Section2() {
 
             <div className="card-head-left row align-items-center">
                 <div className="col-3">
+                    <img src={Sudhanshu} className="profile"  alt="sharjeelportfolio"/>
+                </div>
+                <div className="col-9">
+                    <h2 className="card-heading">Sudhanshu Brahmraj</h2>
+                    <p className="card-role">Python Developer/Data scientist</p>
+                    <p className="card-info">
+                    An accomplished professional blending the roles of a Data Scientist and Python Developer, adept at harnessing Python's power to manipulate and analyze data, while also leveraging statistical models and machine learning techniques to derive actionable insights and drive impactful outcomes.
+                    </p>
+                </div>
+            </div>
+
+            <div className="card-head-right row align-items-center">
+                <div className="col-3">
                     <img src={Hassan} className="profile"  alt="sharjeelportfolio"/>
                 </div>
                 <div className="col-9">
@@ -58,18 +85,7 @@ function Section2() {
                 </div>
             </div>
 
-            <div className="card-head-right row align-items-center">
-                <div className="col-3">
-                    <img src={sohail} className="profile"  alt="sharjeelportfolio"/>
-                </div>
-                <div className="col-9">
-                    <h2 className="card-heading">Sohel Ahmed</h2>
-                    <p className="card-role">HR Manager</p>
-                    <p className="card-info">
-                    Hello, my name is Sohel and I am the HR Manager. I am responsible for overseeing all aspects of human resources, from recruiting and hiring to employee relations and benefits administration. I am dedicated to creating a positive and productive work environment for our employees, and I am committed to helping them reach their full potential. I am excited to be part of this team and I look forward to contributing to our company's success
-                    </p>
-                </div>
-            </div>
+
 
             
 
